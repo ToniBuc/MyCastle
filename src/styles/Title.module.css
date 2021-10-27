@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.TitleWrapper h1{
+    color: var(--primary);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  .TitleWrapper h2, .TitleWrapper p{
+    text-align: center;
+  }
+  .TitleWrapper h2{
+    margin-top: 60px;
+    font-size: 2.6rem;
+  }
+.HeaderDiv {
+    width: 100%;
+    display: inline-flex;
+}
+.Temp {
+    width: 50%;
+}
+.UserDiv {
+    float: right;
+    text-align: right;
+    /* display: flex; */
+    width: 50%;
+    padding-top:10px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.UsernameDiv {
+    /* float: right; */
+    margin-top: 3px;
+    display: inline-block;
+}
+.LogoutBtn {
+    /* float: right; */
+    display: inline-block;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    height: 30px;
+    width: 80px;
+    font-family: 'Noto Serif';
+    margin-left:10px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.Register {
+    height: 90vh; 
+    width: 50vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .RegisterWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--primary);
+    padding: 30px;
+    border-radius: 15px;
+  }
+  .RegisterTxt {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Noto Serif";
+    border-radius: 10px;
+  }
+  .RegisterBtn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: var(--secondary);
+    font-family: "Noto Serif";
+    border-radius: 10px;
+  }
+  .Register div {
+    margin-top: 7px;
+    color: var(--secondary);
+  }
