@@ -25,10 +25,6 @@ function Register() {
         }
         if (user)
             history.replace("/home");
-        // if (error){
-        //     console.error(error);
-        //     alert(error.message);
-        // }
     }, [user, loading]);
 
     return (

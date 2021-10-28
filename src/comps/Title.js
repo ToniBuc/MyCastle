@@ -30,6 +30,7 @@ const Title = () => {
       return history.replace("/");
     fetchUsername();
   }, [user, loading]);
+  
   return (
     <div className={styles.TitleWrapper}>
       <div className={styles.HeaderDiv}>
