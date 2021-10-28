@@ -1,10 +1,13 @@
 import React from "react";
 import useFirestore from '../hooks/useFirestore';
 import { motion } from 'framer-motion';
+import { auth } from '../firebase/config';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import styles from '../styles/ImageGrid.module.css';
 
 const ImageGrid = ({setSelectedImage}) => {
-    const {docs} = useFirestore('images');
+    const [user, loading, error] = useAuthState(auth);
+    const {docs} = useFirestore('images', user);
 
     return (
         <div className={styles.ImageGrid}>
