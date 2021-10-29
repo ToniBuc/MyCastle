@@ -34,8 +34,9 @@ const Title = () => {
   return (
     <div className={styles.TitleWrapper}>
       <div className={styles.HeaderDiv}>
-        <div className={styles.Temp}>
-          <h1>MyCastle</h1>
+        <div className={styles.TitleLogo}>
+          <img src={require("../resources/mycastle-logo.png")} alt="MyCastle logo" className={styles.Logo}/>
+          <h1 className={styles.TitleTxt}>MyCastle</h1>
         </div>
         <div className={styles.UserDiv}>
           <div className={styles.UsernameDiv}>{username}</div>

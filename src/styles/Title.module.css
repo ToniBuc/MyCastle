@@ -17,8 +17,9 @@
     width: 100%;
     display: inline-flex;
 }
-.Temp {
+.TitleLogo {
     width: 50%;
+    display: inline-flex;
 }
 .UserDiv {
     float: right;
@@ -45,4 +46,11 @@
     width: 80px;
     font-family: 'Noto Serif';
     margin-left:10px;
+}
+.TitleTxt {
+  margin-left: 15px;
+}
+.Logo {
+  width:45px;
+  height:45px;
 }
